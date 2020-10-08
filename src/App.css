@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+body {
+  background-color: #1E1F23;
+  overflow: hidden;
+}
+.corousel {
+  max-height: 720px;
+  width: 100%;
+  object-fit: cover;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
